@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import link from "./link.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -23,25 +24,26 @@ import stratusolve from "./company/stratusolve.svg";
 import iomi from "./iomi.png";
 
 export {
-  logo,
-  backend,
-  creator,
-  mobile,
-  web,
-  github,
-  menu,
-  close,
-  css,
-  docker,
-  git,
-  html,
-  javascript,
-  nodejs,
-  reactjs,
-  tailwind,
-  threejs,
-  mip,
-  iomi,
-  stratusolve,
-  freelance,
+    logo,
+    backend,
+    creator,
+    mobile,
+    web,
+    github,
+    link,
+    menu,
+    close,
+    css,
+    docker,
+    git,
+    html,
+    javascript,
+    nodejs,
+    reactjs,
+    tailwind,
+    threejs,
+    mip,
+    iomi,
+    stratusolve,
+    freelance,
 };
