@@ -10,7 +10,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-        <Tilt options={{max: 45, scale: 1, speed: 450}} className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+        <Tilt options={{max: 45, scale: 1, speed: 450}} className="bg-tertiary p-5 rounded-2xl sm:w-[500px] w-full">
             <div className="relative w-full h-[230px]">
                 <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl" />
                 <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -48,10 +48,13 @@ const Works = () => {
                     Following Projects showcase my skills and experience with real-world examples of my work. Each project is briefly
                     described with links to the live app and repositories where possible. They reflect my ability to solve complex problems,
                     work with various technologies and manage projects effectively.
+                    <br />
+                    <br />
+                    Stay tuned for more!
                 </motion.p>
             </div>
 
-            <div className="mt-20 flex flex-wrap gap-7">
+            <div className="mt-20 flex flex-wrap gap-7 justify-center items-center">
                 {projects.map((project, index) => (
                     <ProjectCard key={`project-${index}`} index={index} {...project} />
                 ))}

@@ -4,25 +4,17 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    mip,
+    freelance,
+    iomi,
+    threejs, stratusolve,
 } from "../assets";
 
 export const navLinks = [
@@ -85,20 +77,12 @@ const technologies = [
         icon: nodejs,
     },
     {
-        name: "MongoDB",
-        icon: mongodb,
-    },
-    {
         name: "Three JS",
         icon: threejs,
     },
     {
         name: "git",
         icon: git,
-    },
-    {
-        name: "figma",
-        icon: figma,
     },
     {
         name: "docker",
@@ -108,55 +92,40 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Junior Software Engineer",
+        company_name: "MIP Holdings",
+        icon: mip,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "May 2018 - April 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developing and maintaining our automated regression scripts, using groovy and Java.",
+            "Managing the admin of our Jira Server instance as well as creating plugins to assist our reporters, using mainly Java and Groovy as well as JavaScript.",
+            "Generating and handling the reporting of our scrum, weekly and monthly sprints.",
+            "Participating in weekly Estimations and Sprint Reviews.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Freelance Software Engineer",
+        company_name: "",
+        icon: freelance,
         iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        date: "April 2022 - May 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Studied various JavaScript frameworks as well as PHP8.",
+            "Completed the Scrumba online ReactJS course.",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "Intern Software Developer",
+        company_name: "StratuSolve",
+        icon: stratusolve,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "June 2022 - Sept 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Developing and maintaining web applications using Divblox.php, JavaScript, PHP and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Implementing responsive design and ensuring cross-browser and platform compatibility.",
+            "Participating in Estimations and Dev Gyms to strengthen our skills in development.",
         ],
     },
 ];
@@ -190,67 +159,29 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Iomi",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "A free invoicing application, that allows users to keep track of their earnings, stock and customers with ease.",
         tags: [
             {
-                name: "react",
+                name: "javascript",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "php",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "mysql",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
+                name: "bootstrap",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Job IT",
-        description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: iomi,
+        source_code_link: "https://www.iomi.app/",
     },
 ];
 
