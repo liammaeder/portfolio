@@ -46,16 +46,16 @@ const services = [
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "Fullstack Developer",
+        icon: creator,
+    },
+    {
+        title: "React Developer",
         icon: mobile,
     },
     {
-        title: "Backend Developer",
+        title: "Three Developer",
         icon: backend,
-    },
-    {
-        title: "Content Creator",
-        icon: creator,
     },
 ];
 
@@ -73,16 +73,8 @@ const technologies = [
         icon: javascript,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
-    },
-    {
         name: "React JS",
         icon: reactjs,
-    },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
     },
     {
         name: "Tailwind CSS",

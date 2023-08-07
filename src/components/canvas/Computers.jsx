@@ -1,6 +1,7 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import TrackVisibility from "react-on-screen";
 
 import CanvasLoader from "../Loader";
 
@@ -35,7 +36,6 @@ const ComputersCanvas = () => {
             mediaQuery.removeEventListener("change", handleMediaQueryChange);
         };
     }, []);
-
 
     return (
         <Canvas frameloop="demand" shadows camera={{position: [20, 3, 5], fov: 25}} gl ={{preserveDrawingBuffer: true}}>
