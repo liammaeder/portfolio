@@ -3,6 +3,7 @@ import { styles } from '../styles';
 import { navLinks } from "../constants";
 import { Link } from "react-router-dom";
 import { logo, menu, close } from '../assets';
+import resume from "../assets/doc/Resume-Liam-Maeder.pdf";
 
 const Navbar = () => {
     const [active, setActive] = useState("");
@@ -40,6 +41,7 @@ const Navbar = () => {
                             <a href={`#${link.id}`}>{link.title}</a>
                         </li>
                     ))}
+                    <a href={resume} download="Resume-Liam-Maeder.pdf" className="text-white font-bold font-poppins cursor-pointer text-[18px]">Download my Resume</a>
                 </ul>
                 <div className="sm:hidden flex flex-1 justify-end items-center">
                     <img src={toggle ? close : menu} alt="menu" className="w-[28px] h-[28px] object-contain cursor-pointer" onClick={() => setToggle(!toggle)}/>
@@ -50,6 +52,7 @@ const Navbar = () => {
                                     <a href={`#${link.id}`}>{link.title}</a>
                                 </li>
                             ))}
+                            <a href={resume} download="Resume-Liam-Maeder.pdf" className="text-white font-bold font-poppins cursor-pointer text-[18px]">Download my Resume</a>
                         </ul>
                     </div>
                 </div>

@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import resume from "../assets/doc/Resume-Liam-Maeder.pdf";
 
 const Hero = () => {
     return (
@@ -17,6 +18,8 @@ const Hero = () => {
                     <p className={`${styles.heroSubText} mt-2 text-white-100`}>I develop web-based applications&nbsp;
                         <br className="sm:block hidden" />and other tech solutions!
                     </p>
+                    <div className='flex flex-row mb-5 justify-center items-center mt-5'>
+                    </div>
                 </div>
             </div>
 
