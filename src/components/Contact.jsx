@@ -96,8 +96,8 @@ const Contact = () => {
                     <div className="flex w-full justify-center items-center bg-black-100 rounded-2xl mt-5">
                         <div className="flex-row flex justify-center items-center m-3">
                             {socials.map((social, index) => (
-                                <div key={index} onClick={() => {window.open(social.link, "_blank")}} className="w-auto h-auto rounded-full cursor-pointer flex justify-center">
-                                    <img src={social.icon} alt={social.name} className="w-1/2 h-1/2 object-contain"/>
+                                <div key={index} onClick={() => {window.open(social.link, "_blank")}} className="rounded-full cursor-pointer flex justify-center">
+                                    <img src={social.icon} alt={social.name} className="w-1/2 max-h-[100px] object-contain"/>
                                 </div>
                             ))}
                         </div>
