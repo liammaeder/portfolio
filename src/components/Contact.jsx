@@ -67,7 +67,7 @@ const Contact = () => {
             <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
                 <motion.div variants={slideIn("left", "tween", 0.2, 1)} className="flex-[0.75] bg-black-100 p-8 rounded-2xl">
                     <p className={styles.sectionSubText}>Get in touch</p>
-                    <h3 className={styles.sectionHeadText}>Contact.</h3>
+                    <h3 className={styles.sectionHeadText}>Contact</h3>
 
                     <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col gap-8">
                         <label className="flex flex-col">
@@ -91,7 +91,7 @@ const Contact = () => {
                 </motion.div>
             </div>
 
-            <div className="flex flex-row w-full gap-10 overflow-hidden">
+            <div className="flex flex-row w-full overflow-hidden">
                 <motion.div variants={slideIn("up", "tween", 0.2, 1)} className="w-full">
                     <div className="flex w-full justify-center items-center bg-black-100 rounded-2xl mt-5">
                         <div className="flex-row flex justify-center items-center m-3">

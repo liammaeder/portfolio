@@ -13,10 +13,12 @@ import git from "./tech/git.png";
 import html from "./tech/html.png";
 import docker from "./tech/docker.png";
 import tailwind from "./tech/tailwind.png";
+import bootstrap from "./tech/bootstrap.svg";
 import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import threejs from "./tech/threejs.svg";
+import outsystems from "./tech/outsystems.svg"
 
 import mip from "./company/mip.svg";
 import freelance from "./company/freelance.svg";
@@ -46,6 +48,7 @@ export {
     nodejs,
     reactjs,
     tailwind,
+    bootstrap,
     threejs,
     mip,
     iomi,
@@ -54,5 +57,6 @@ export {
     freelance,
     linkedin,
     facebook,
-    githubbtn
+    githubbtn,
+    outsystems
 };

@@ -8,6 +8,7 @@ import {
     css,
     reactjs,
     tailwind,
+    bootstrap,
     nodejs,
     git,
     docker,
@@ -19,7 +20,8 @@ import {
     systemsio,
     linkedin,
     facebook,
-    githubbtn
+    githubbtn,
+    outsystems
 } from "../assets";
 
 export const navLinks = [
@@ -104,6 +106,10 @@ const technologies = [
         icon: tailwind,
     },
     {
+        name: "Bootstrap",
+        icon: bootstrap,
+    },
+    {
         name: "Node JS",
         icon: nodejs,
     },
@@ -119,6 +125,10 @@ const technologies = [
         name: "docker",
         icon: docker,
     },
+    {
+        name: "Outsystems",
+        icon: outsystems
+    }
 ];
 
 const experiences = [
