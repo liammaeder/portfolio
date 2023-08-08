@@ -21,7 +21,12 @@ import threejs from "./tech/threejs.svg";
 import mip from "./company/mip.svg";
 import freelance from "./company/freelance.svg";
 import stratusolve from "./company/stratusolve.svg";
+import systemsio from "./company/systemsio.svg";
 import iomi from "./iomi.png";
+
+import linkedin from "./social/linkedin.svg";
+import facebook from "./social/facebook.svg";
+import githubbtn from "./social/github.svg";
 
 export {
     logo,
@@ -44,6 +49,10 @@ export {
     threejs,
     mip,
     iomi,
+    systemsio,
     stratusolve,
     freelance,
+    linkedin,
+    facebook,
+    githubbtn
 };

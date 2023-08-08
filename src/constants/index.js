@@ -14,7 +14,12 @@ import {
     mip,
     freelance,
     iomi,
-    threejs, stratusolve,
+    threejs,
+    stratusolve,
+    systemsio,
+    linkedin,
+    facebook,
+    githubbtn
 } from "../assets";
 
 export const navLinks = [
@@ -27,10 +32,36 @@ export const navLinks = [
         title: "Work",
     },
     {
+        id: "skill",
+        title: "Skills",
+    },
+    {
+        id: "project",
+        title: "Projects",
+    },
+    {
         id: "contact",
         title: "Contact",
     },
 ];
+
+export const socials = [
+    {
+        icon: linkedin,
+        name: "linkedin",
+        link: "https://www.linkedin.com/in/liam-kenneth-maeder/"
+    },
+    {
+        icon: facebook,
+        name: "facebook",
+        link: "https://www.facebook.com/Monarkle98/"
+    },
+    {
+        icon: githubbtn,
+        name: "github",
+        link: "https://github.com/liammaeder/"
+    },
+]
 
 const services = [
     {
@@ -95,7 +126,7 @@ const experiences = [
         title: "Junior Software Engineer",
         company_name: "MIP Holdings",
         icon: mip,
-        iconBg: "#E6DEDD",
+        iconBg: "#4a4d66",
         date: "May 2018 - April 2022",
         points: [
             "Developing and maintaining our automated regression scripts, using groovy and Java.",
@@ -108,7 +139,7 @@ const experiences = [
         title: "Freelance Software Engineer",
         company_name: "",
         icon: freelance,
-        iconBg: "#383E56",
+        iconBg: "#E6DEDD",
         date: "April 2022 - May 2022",
         points: [
             "Studied various JavaScript frameworks as well as PHP8.",
@@ -119,13 +150,25 @@ const experiences = [
         title: "Intern Software Developer",
         company_name: "StratuSolve",
         icon: stratusolve,
-        iconBg: "#E6DEDD",
+        iconBg: "#4a4d66",
         date: "June 2022 - Sept 2023",
         points: [
             "Developing and maintaining web applications using Divblox.php, JavaScript, PHP and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser and platform compatibility.",
             "Participating in Estimations and Dev Gyms to strengthen our skills in development.",
+        ],
+    },
+    {
+        title: "Junior Outsystems Developer",
+        company_name: "Systems iO",
+        icon: systemsio,
+        iconBg: "#E6DEDD",
+        date: "Sep 2023 - Present",
+        points: [
+            "Developing and maintaining web applications using Outsystems.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Implementing responsive design and ensuring cross-browser and platform compatibility.",
         ],
     },
 ];
