@@ -6,8 +6,7 @@
     "scripts": {
         "dev": "vite",
         "predeploy": "npm run build",
-        "start": "serve -s build",
-        "prestart": "npm i -g serve",
+        "install": "npm install --legacy-peer-deps",
         "deploy": "gh-pages -d dist",
         "build": "vite build",
         "preview": "vite preview"
