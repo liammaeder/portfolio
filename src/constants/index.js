@@ -161,7 +161,7 @@ const experiences = [
         company_name: "StratuSolve",
         icon: stratusolve,
         iconBg: "#4a4d66",
-        date: "June 2022 - Present",
+        date: "June 2022 - Sep 2023",
         points: [
             "Developing and maintaining web applications using Divblox.php, JavaScript, PHP and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -169,18 +169,17 @@ const experiences = [
             "Participating in Estimations and Dev Gyms to strengthen our skills in development.",
         ],
     },
-    // {
-    //     title: "Junior Outsystems Developer",
-    //     company_name: "Systems iO",
-    //     icon: systemsio,
-    //     iconBg: "#E6DEDD",
-    //     date: "Sep 2023 - Present",
-    //     points: [
-    //         "Developing and maintaining web applications using Outsystems.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser and platform compatibility.",
-    //     ],
-    // },
+    {
+        title: "Junior Outsystems Developer",
+        company_name: "Systems iO",
+        icon: systemsio,
+        iconBg: "#E6DEDD",
+        date: "Sep 2023 - Present",
+        points: [
+            "Developing and maintaining web applications using Outsystems.",
+            "Working with Ops and Devs to develop quality and robust solutions.",
+        ],
+    },
 ];
 
 const testimonials = [
