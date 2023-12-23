@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9f8fe0b-f198-4540-b44f-471b61b5ab0a" name="Changes" comment="Committing changes for deployment">
-      <change beforePath="$PROJECT_DIR$/-D" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +93,7 @@
       <workItem from="1691863346037" duration="3174000" />
       <workItem from="1692992989452" duration="66000" />
       <workItem from="1694260191169" duration="600000" />
+      <workItem from="1702975028800" duration="885000" />
     </task>
     <task id="LOCAL-00001" summary="Committing changes for deployment">
       <option name="closed" value="true" />
