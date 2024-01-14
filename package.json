@@ -1,6 +1,6 @@
 {
     "name": "portfolio",
-    "hopmepage": "http://www.maeder.africa/",
+    "homepage": "http://localhost/var/www/html/index.html",
     "private": true,
     "version": "0.0.0",
     "type": "module",
